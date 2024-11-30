@@ -16,7 +16,6 @@ root = {
 def sum_root(root):
     current_sum = 0
     if 'value' in root:
-        # print(root['value'])
         current_sum += root['value']
     if 'nodes' in root:
         for node in root['nodes']:
